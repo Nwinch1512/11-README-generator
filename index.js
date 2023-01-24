@@ -43,6 +43,12 @@ const promptUser = () =>
       message: "Which steps should be taken to install your project?",
     },
     {
+      type: "list",
+      name: "license",
+      message: "What type of license do you have?  Use arrow keys",
+      choices: ["Mit", "other"],
+    },
+    {
       type: "input",
       name: "usage",
       message: "How should your project be used?",
