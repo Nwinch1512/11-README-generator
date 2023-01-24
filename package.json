@@ -1,0 +1,22 @@
+{
+  "name": "11-readme-generator",
+  "version": "1.0.0",
+  "description": "This is an example project that uses Node JS to generate a README file in markdown format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nwinch1512/11-README-generator.git"
+  },
+  "author": "Nwinch1512",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nwinch1512/11-README-generator/issues"
+  },
+  "homepage": "https://github.com/Nwinch1512/11-README-generator#readme",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
