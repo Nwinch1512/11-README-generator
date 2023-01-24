@@ -16,9 +16,9 @@
   ## Tests
   ## Questions
   
-  My GitHub username is Nwinch1512.
+  My GitHub username is xxx.
   
-  [GitHub page](https://github.com/Nwinch1512/ "Visit my GitHub page")
+  [GitHub page](https://github.com/xxx/ "Visit my GitHub page")
  
   My email address is undefined.
 
