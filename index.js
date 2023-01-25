@@ -117,7 +117,9 @@ const promptUser = () =>
   ]);
 
 const generateREADME = (answers) =>
-  `# Title
+  `![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+  ![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)(https://opensource.org/licenses/BSD-2-Clause)
+  # Title
 
   
   ## Table of Contents
@@ -132,12 +134,15 @@ const generateREADME = (answers) =>
   ## Description
   ${answers.description}
   ## Installation
-  ${answers.description}
+  These steps should be followed to install this project: ${answers.installation}.
   ## Usage
-  ${answers.description}
+  This project should be used to ${answers.usage}.
   ## License
+  This project holds a ${answers.license} license.
   ## Contributing
+  The following: ${answers.contributing} contributed to this project.
   ## Tests
+  The project should be test in the following way: ${answers.testing}.
   ## Questions
   
   My GitHub username is ${answers.github}.
@@ -147,12 +152,6 @@ const generateREADME = (answers) =>
   My email address is ${answers.email}.
 
   [Contact Me](mailto:${answers.email})
-  
-  ## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
-
 `;
 
 promptUser()
