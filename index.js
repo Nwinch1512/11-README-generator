@@ -119,8 +119,9 @@ const promptUser = () =>
 const generateREADME = (answers) =>
   `# Title
 
-  ## Description
+  
   ## Table of Contents
+  [Description](#description)
   [Installation](#installation)
   [Usage](#usage)
   [License](#license)
@@ -128,8 +129,12 @@ const generateREADME = (answers) =>
   [Tests](#tests)
   [Questions](#questions)
 
+  ## Description
+  ${answers.description}
   ## Installation
+  ${answers.description}
   ## Usage
+  ${answers.description}
   ## License
   ## Contributing
   ## Tests
@@ -146,6 +151,7 @@ const generateREADME = (answers) =>
   ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 `;
 
