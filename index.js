@@ -184,13 +184,7 @@ const licences = {
     url: "https://opensource.org/licenses/Zlib",
     imageUrl: "https://img.shields.io/badge/License-Zlib-lightgrey.svg",
   },
-  //[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 };
-
-console.log(licences.imageUrl);
-
-// console.log(chosenLicence.url);
-// console.log(chosenLicence.imageUrl);
 
 const promptUser = () =>
   inquirer.prompt([
@@ -278,11 +272,6 @@ const promptUser = () =>
     },
     {
       type: "input",
-      name: "linkedin",
-      message: "Enter your LinkedIn URL.",
-    },
-    {
-      type: "input",
       name: "email",
       message: "Enter your email address",
     },
@@ -299,7 +288,7 @@ const generateREADME = (answers) =>
   ![License](${licences[answers.license].imageUrl})
   
   
-  # Title
+  # ${answers.title}
 
   
   ## Table of Contents
@@ -327,13 +316,13 @@ const generateREADME = (answers) =>
   ${answers.testing}
   ## Questions
   
-  My GitHub username is ${answers.github}.
-  
-  [GitHub page](https://github.com/${answers.github}/ "Visit my GitHub page")
- 
-  My email address is ${answers.email}.
+  Please contact me via email if you have any further questions.
 
   [Contact Me](mailto:${answers.email})
+
+  You can also visit my GitHub page if you would like to explore my work further.
+  
+  [GitHub page](https://github.com/${answers.github}/ "Visit my GitHub page")  
 `;
 
 promptUser()
