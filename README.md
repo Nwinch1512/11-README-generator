@@ -20,8 +20,8 @@ I was motived to build a README file generator to simplify the process of writin
 
 These steps should be followed to install this project: <br>
 
-1. Enter 'node init -y' into Node JS to create a package.json file. <br>
-2. Enter 'node install inquirer@6' to import the inquirer module into your project folder. <br>
+1. Clone the repo. <br>
+2. Enter 'npm install' into Node JS to download dependencies. <br>
 3. Enter 'node index.js' into Node JS. <br>
 4. Answer the questions in Node JS.
 
