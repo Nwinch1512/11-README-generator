@@ -1,8 +1,8 @@
 
-  ![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
   
   
-  # ppp
+  # README Generator
 
   
   ## Table of Contents
@@ -15,23 +15,23 @@
   [Questions](#questions)
 
   ## Description
-  ppp
+  I was motived to build a README file generator to simplify the process of writing a README file for each project completed.  The README generator enables users to generate a README file effortlessly by answering a series of questions that appear Node JS.  This project helped me become more familiar with some of the modules available in Node JS such as Inquirer.  It also taught me how to import functions from other script files.
   ## Installation
-  These steps should be followed to install this project: ppp
+  These steps should be followed to install this project: Follow this three steps: 1. Enter 'node init -y' into Node JS to create a package.json file. 2. Enter 'node install inquirer@6' to import the inquirer module into your project folder. 3. Enter 'node index.js' into Node JS. 4. Answer the questions in Node JS.
   ## Usage
-  This project should be used to llll
+  This project should be used to This code would be useful to anyone that needs to generate a README file quickly for their project.
   ## License
-  This project holds a Eclipse Public License 1.0 license.
+  This project holds a MIT license.
   ## Contributing
-  The following contributed to this project: llll
+  The following contributed to this project: license badges were sourced from https://shields.io/
   ## Tests
-  lll
+  N/A
   ## Questions
   
   Please contact me via email if you have any further questions.
 
-  [Contact Me](mailto:lll)
+  [Contact Me](mailto:naomi.winchurch@hotmail.co.uk)
 
   You can also visit my GitHub page if you would like to explore my work further.
   
-  [GitHub page](https://github.com/lll/ "Visit my GitHub page")  
+  [GitHub page](https://github.com/Nwinch1512/ "Visit my GitHub page")  
