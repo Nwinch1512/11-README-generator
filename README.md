@@ -14,7 +14,7 @@
 
 ## Description
 
-I was motived to build a README file generator to simplify the process of writing a README file for each project completed. The README generator enables users to generate a README file effortlessly by answering a series of questions that appear in Node JS. This project helped me become more familiar with some of the modules available in Node JS such as Inquirer. It also taught me how to import functions from other script files, practice using arrow functions and retrieve response data.
+I was motived to build a README file generator to simplify the process of writing a README file for each project completed. The README generator enables users to generate a README file effortlessly by answering a series of questions that appear in Node JS. This project helped me become more familiar with some of the modules available in Node JS such as Inquirer. It also taught me how to import functions from other script files, practice using arrow functions and retrieve response data. Please watch the [README Generator demo video](https://drive.google.com/file/d/1Irz5_BhiV5oCPaPDxW2-m3SoGFMuVSwI/view) to see it in practice.
 
 ## Installation
 
